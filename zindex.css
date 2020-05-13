@@ -1,0 +1,56 @@
+html, body {
+	height: 5000px;
+}
+
+div {
+	border: solid black 1px;
+}
+
+.full {
+	height: 100%;
+}
+
+.z-block {
+	border: solid black 1px;
+	background-color: rgba(88, 88, 255, 0.5);
+	min-height: 300px;
+
+}
+
+.row {
+	border: none;
+}
+
+#moving-block {
+	border: none;
+
+	height: 150px;
+	width: 100%;
+
+	background-color: red;
+
+	position: absolute;
+
+	left: 50px;
+	top: 200px;
+}
+
+#block-1{
+	z-index: 1;
+}
+
+#block-2{
+	z-index: 2;
+}
+
+#block-3{
+	z-index: 3;
+}
+
+#block-4{
+	z-index: 4;
+}
+
+#block-5{
+	z-index: 5;
+}
